@@ -1,0 +1,13 @@
+//mutations
+{
+    "query": "mutation MyQuery($name: String!) { createCar(name: $name) {name } }",
+    "variables": {
+        "name": "KIA"
+    },
+    "operationName": "MyQuery"
+}
+
+//query
+{ 
+	"query": "{allCars{name}}"
+}
