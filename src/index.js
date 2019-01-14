@@ -6,7 +6,7 @@ import resolvers from './resolvers'
 
 const app = express()
 
-mongoose.connect('mongodb://localhost/graphql-nodejs',{
+mongoose.connect('mongodb://M.Macias96:Guitarra2896@@ds257314.mlab.com:57314/graphql-nodejs',{
     useNewUrlParser: true
 })
 .then(() => console.log('mongodb Conectado'))
